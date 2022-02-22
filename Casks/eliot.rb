@@ -8,7 +8,7 @@ cask "eliot" do
   homepage "https://www.nongnu.org/eliot/fr/index.html"
 
   livecheck do
-    url "https://www.nongnu.org/eliot/en/index.html"
+    url "https://www.nongnu.org/eliot/en/dl-macosx.html"
     strategy :page_match
     regex(%r{href=.*?/eliot-(\d+(?:\.\d+)*)\.dmg}i)
   end
